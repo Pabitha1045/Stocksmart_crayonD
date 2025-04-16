@@ -1,0 +1,63 @@
+.chatContainer {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--light-bg);
+  border-radius: 12px;
+  box-shadow: var(--chat-shadow);
+}
+
+.chatBox {
+  min-height: 300px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.message {
+  padding: 8px;
+  margin: 5px 0;
+  background-color: var(--message-bg);
+  border-radius: 6px;
+}
+
+.inputContainer {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inputField {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--input-border);
+  font-size: 1rem;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputField:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: var(--focus-shadow);
+}
+
+.sendButton {
+  padding: 12px 20px;
+  background-color: var(--text-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.sendButton:hover {
+  background-color: var(--primary);
+}

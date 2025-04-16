@@ -1,0 +1,53 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  color: #000000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #0077ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.authButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn,
+.btnOutline {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #0077ff;
+  border: none;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #339aff;
+}
+
+.btnOutline {
+  background-color: transparent;
+  border: 2px solid #0077ff;
+  color: #0077ff;
+}
+
+.btnOutline:hover {
+  background-color: #0077ff;
+  color: #ffffff;
+}
